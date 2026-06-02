@@ -1,5 +1,5 @@
 /* ========================================
-   TMK商店 - メインスクリプト
+   ともき商店 - メインスクリプト
 ======================================== */
 
 // ========================================
@@ -42,19 +42,19 @@ const dialogues = {
   greeting: [
     [
       'いらっしゃい。',
-      'ここはTMK商店。',
+      'ここはともき商店。',
       '手づくりのゲームと道具を並べてるんだ。',
       '何かお探しかい？'
     ],
     [
       'おや、お客さんだ。',
-      'ここはTMK商店。',
+      'ここはともき商店。',
       'ゆっくり見ていきな。',
       '何か探してるのかい？'
     ],
     [
       'よく来たね。',
-      'ここはTMK商店。',
+      'ここはともき商店。',
       '個人開発のゲームと道具を扱っている。',
       '何が欲しい？'
     ]
@@ -79,7 +79,7 @@ const articleChoices = [
     text: 'あんたは誰だ？',
     type: 'dialogue',
     dialogueLines: [
-      'わしはTMK。個人でゲームや日々の道具を作っておるのじゃ。',
+      'わしはともき。個人でゲームや日々の道具を作っておるのじゃ。',
       'ここに並ぶのは、すべてわしの手づくり。気軽に遊んでいきな。',
       'Google Playにもアプリを出しておる。Aboutから覗いてくれ。'
     ]
@@ -304,7 +304,7 @@ function openShutter() {
 
   // 鐘の音を鳴らす
   bellSound.currentTime = 0;
-  bellSound.volume = 0.3;
+  bellSound.volume = 0.2;
   bellSound.play().catch(() => {});
 
   // シャッターを開ける
@@ -317,7 +317,7 @@ function openShutter() {
 
     // BGMを再生（0.9秒遅延）
     setTimeout(() => {
-      bgm.volume = 0.15;
+      bgm.volume = 0.1;
       bgm.playbackRate = 0.85;
       bgm.currentTime = 0;
       bgm.play().catch(() => {});
@@ -370,7 +370,7 @@ function closeShutter() {
 
   // 鐘の音を鳴らす
   bellSound.currentTime = 0;
-  bellSound.volume = 0.3;
+  bellSound.volume = 0.2;
   bellSound.play().catch(() => {});
 
   // 店内画面を非表示
@@ -442,7 +442,7 @@ function handleExit() {
 function selectChoice(index) {
   // タッチ音を再生
   touchSound.currentTime = 0;
-  touchSound.volume = 0.15;
+  touchSound.volume = 0.1;
   touchSound.play().catch(() => {});
 
   const choice = articleChoices[index];
@@ -511,7 +511,7 @@ function showItems(items) {
 function selectItem(url, event) {
   // 購入音を再生
   purchaseSound.currentTime = 0;
-  purchaseSound.volume = 0.25;
+  purchaseSound.volume = 0.18;
   purchaseSound.play().catch(() => {});
 
   // キラキラエフェクト
