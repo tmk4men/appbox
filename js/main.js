@@ -88,16 +88,22 @@ const articleChoices = [
     text: 'ゲームで遊びたい',
     items: [
       {
-        url: 'https://haisui-no-ken.vercel.app/',
+        url: 'https://play.google.com/store/apps/details?id=com.otokodou.app3',
         image: 'images/app-kizami.webp',
         title: '漢道「刻」',
         desc: 'カメラ越しに筋トレ体感ゲーム'
       },
       {
-        url: 'https://tamagolife.vercel.app/?s=1776385224',
+        url: 'https://play.google.com/store/apps/details?id=app.piyofit.tamagolife',
         image: 'images/app-piyo.webp',
         title: 'ぴよふぃっと',
         desc: '小さな命を育てる育成ゲーム'
+      },
+      {
+        url: 'https://play.google.com/store/apps/details?id=app.traffic.ojisan',
+        image: 'images/app-traffic.webp',
+        title: 'トラフィックおじさん',
+        desc: '流れてくる車を色で仕分けろ！'
       }
     ]
   },
@@ -105,16 +111,22 @@ const articleChoices = [
     text: '暮らしを助ける道具がほしい',
     items: [
       {
-        url: 'https://tmk4men.github.io/yurutto-kakeibo/',
-        image: 'images/app-kakeibo.webp',
-        title: 'ゆとり家計簿',
-        desc: '3つに分けるだけのゆる家計簿'
+        url: 'https://play.google.com/store/apps/details?id=app.tuzukin.diet',
+        image: 'images/app-tuzukin.webp',
+        title: 'ツヅキン',
+        desc: '続けられるダイエット・筋トレ管理'
       },
       {
-        url: 'https://okusu-reminder.vercel.app/',
+        url: 'https://play.google.com/store/apps/details?id=com.tmk4men.okusureminder',
         image: 'images/app-okusuri.webp',
         title: 'おくすリマインダー',
         desc: 'お薬の飲み忘れをのんちゃんと防ぐ'
+      },
+      {
+        url: 'https://play.google.com/store/apps/details?id=com.tmk4men.yuruttokakeibo',
+        image: 'images/app-kakeibo.webp',
+        title: 'ゆとり家計簿',
+        desc: '3つに分けるだけのゆる家計簿'
       }
     ]
   }

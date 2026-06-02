@@ -11,14 +11,15 @@
 | コンセプト | RPGのお店で店主と会話しながら作品を選ぶ |
 | 公開 | GitHub Pages（静的サイト） |
 
-## 取り扱い作品
-| 作品 | 種別 | リンク |
-|------|------|--------|
-| 漢道「刻」 | Web ゲーム | https://haisui-no-ken.vercel.app/ |
-| ぴよふぃっと | Web ゲーム | https://tamagolife.vercel.app/ |
-| ゆとり家計簿 | Web アプリ | https://tmk4men.github.io/yurutto-kakeibo/ |
-| おくすリマインダー | Web アプリ | https://okusu-reminder.vercel.app/ |
-| Google Play | アプリ一覧 | https://play.google.com/store/apps/dev?id=4981500069697226170 |
+## 取り扱い作品（リンクは Google Play）
+| 作品 | 種別 | Play ID |
+|------|------|---------|
+| 漢道「刻」 | ゲーム | com.otokodou.app3 |
+| ぴよふぃっと | ゲーム | app.piyofit.tamagolife |
+| トラフィックおじさん | ゲーム | app.traffic.ojisan |
+| ツヅキン | アプリ | app.tuzukin.diet |
+| おくすリマインダー | アプリ | com.tmk4men.okusureminder |
+| ゆとり家計簿 | アプリ | com.tmk4men.yuruttokakeibo |
 
 ## 演出フロー
 ```
@@ -30,9 +31,8 @@
 ```
 
 選択肢：
-- ゲームで遊びたい → 漢道「刻」 / ぴよふぃっと
-- 暮らしを助ける道具がほしい → ゆとり家計簿 / おくすリマインダー
-- Google Playのアプリを見たい → Google Play
+- ゲームで遊びたい → 漢道「刻」 / ぴよふぃっと / トラフィックおじさん
+- 暮らしを助ける道具がほしい → ツヅキン / おくすリマインダー / ゆとり家計簿
 
 ## おまけ要素
 - 店主の瞬き / キセルアニメーション
@@ -66,7 +66,7 @@ TMKhomepage/
 │   ├── background.webp        # 店内背景
 │   ├── shutter.webp / entrance.webp
 │   ├── bag.webp / グー.webp / チョキ.webp / パー.webp
-│   └── app-*.webp             # 作品アイコン（kizami/piyo/kakeibo/okusuri）
+│   └── app-*.webp             # 作品アイコン（kizami/piyo/traffic/tuzukin/okusuri/kakeibo）
 ├── sounds/                   # BGM・効果音
 └── README.md
 ```
