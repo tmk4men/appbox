@@ -1,0 +1,10 @@
+# 別プロジェクト（独自のGitリポジトリ。コンテンツ参照用にローカル保持）
+個人開発HP/
+
+# ローカル設定
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
